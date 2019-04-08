@@ -1,0 +1,4 @@
+# catkin build directory:
+build/
+# catkin devel directory:
+devel/

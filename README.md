@@ -20,7 +20,7 @@ This project aims to create a home service robot solution from scratch to illusr
     <param name="angularUpdate" value="0.10"/> 
 
     <!-- the initial map size -->
-    <param name="particles" value="512"/> 
+    <param name="particles" value="128"/> 
 	
     <!-- the initial map size -->
     <param name="xmin" value="-10.0"/>

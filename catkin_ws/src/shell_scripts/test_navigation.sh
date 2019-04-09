@@ -11,4 +11,4 @@ xterm  -name "Localization" -e "roslaunch home_service_robot amcl_with_home_map.
 sleep 5
 
 # c. navigation:
-xterm  -name "Navigation" -e "roslaunch turtlebot_rviz_launchers view_navigation.launch" &
+xterm  -name "Navigation" -e "roslaunch turtlebot_rviz_launchers view_navigation.launch" 

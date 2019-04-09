@@ -11,6 +11,26 @@ This project aims to create a home service robot solution from scratch to illusr
 
 ---
 
+```xml
+    <!-- map update frequency -->
+    <param name="lskip" value="10"/>
+
+    <!-- map update frequency -->
+    <param name="linearUpdate" value="0.10"/>
+    <param name="angularUpdate" value="0.10"/> 
+
+    <!-- the initial map size -->
+    <param name="particles" value="512"/> 
+	
+    <!-- the initial map size -->
+    <param name="xmin" value="-10.0"/>
+    <param name="ymin" value="-10.0"/>
+    <param name="xmax" value="+10.0"/>
+    <param name="ymax" value="+10.0"/>
+```
+
+---
+
 ```shell
 # save map:
 rosrun map_server map_saver -f home.pgm

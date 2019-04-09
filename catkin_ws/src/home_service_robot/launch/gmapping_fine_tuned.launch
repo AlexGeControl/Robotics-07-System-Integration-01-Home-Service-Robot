@@ -1,0 +1,7 @@
+<launch>
+
+  <include file="$(find turtlebot_gazebo)/launch/gmapping_demo.launch">
+    <arg name="custom_gmapping_launch_file" value="$(find home_service_robot)/launch/gmapping_fine_tuned_params.launch"/>
+  </include>
+
+</launch>

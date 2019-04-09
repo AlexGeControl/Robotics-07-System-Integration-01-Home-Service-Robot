@@ -2,7 +2,7 @@
 
 <launch>
   <!--default params-->
-  <arg name="world_name" default="$(find world)/home_service_robot.world"/>
+  <arg name="world_name" default="$(find world)/home.world"/>
 
   <include file="$(find turtlebot_gazebo)/launch/turtlebot_world.launch">
     <arg name="world_file" value="$(arg world_name)"/>

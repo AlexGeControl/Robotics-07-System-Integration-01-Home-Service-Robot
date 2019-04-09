@@ -5,7 +5,7 @@ xterm  -name "Turtlebot World" -e "roslaunch home_service_robot turtlebot_world.
 sleep 5
 
 # b. gmapping demo:
-xterm  -name "Gmapping" -e  "roslaunch turtlebot_gazebo gmapping_demo.launch" &
+xterm  -name "Gmapping" -e  "roslaunch home_service_robot gmapping_fine_tuned.launch" &
 sleep 5
 
 # c. navigation:

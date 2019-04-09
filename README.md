@@ -10,3 +10,10 @@ This project aims to create a home service robot solution from scratch to illusr
 * 
 
 ---
+
+```shell
+# save map:
+rosrun map_server map_saver -f home.pgm
+```
+
+---

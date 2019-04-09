@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Test SLAM
+
 # a. turtlebot world:
 xterm  -name "Turtlebot World" -e "roslaunch home_service_robot turtlebot_world.launch" &
 sleep 5

@@ -1,0 +1,8 @@
+<launch>
+  <arg name="map_file" default="$(find home_service_robot)/map/home.yaml"/>
+
+  <include file="$(find turtlebot_gazebo)/launch/amcl_demo.launch">
+    <arg name="map_file" value="$(arg map_file)"/>
+  </include>
+
+</launch>

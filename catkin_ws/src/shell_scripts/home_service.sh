@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Pick Object
+# Home Service
 
 # a. turtlebot world:
 xterm  -name "Turtlebot World" -e "roslaunch home_service_robot turtlebot_world.launch" &
@@ -15,4 +15,8 @@ xterm  -name "Navigation" -e "roslaunch turtlebot_rviz_launchers view_navigation
 sleep 5
 
 # d. pickup & dropoff:
-xterm  -name "Pickup & Dropoff" -e "rosrun pick_objects pick_objects"
+xterm  -name "Pickup & Dropoff" -e "rosrun pick_objects pick_objects" &
+sleep 5
+
+# e. add marker:
+xterm  -name "Marker Viz" -e "rosrun add_markers add_markers" &
